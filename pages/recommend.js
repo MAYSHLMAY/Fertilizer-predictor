@@ -33,13 +33,6 @@ export default function Home() {
               {/* Details */}
               <div className="form-control">
                 <label htmlFor="age" id="label-age">
-                  Moisture: 
-                </label>
-                {/* Input Type Text */}
-                <input type="number" name="p3" id="age" placeholder="Enter moisture content of the soil" required />
-              </div>
-              <div className="form-control">
-                <label htmlFor="age" id="label-age">
                   Nitrogen Content: 
                 </label>
                 {/* Input Type Text */}
