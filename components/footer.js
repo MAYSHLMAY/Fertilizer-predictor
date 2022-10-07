@@ -7,9 +7,9 @@ export default function Footer() {
               <div className="col-lg-4 col-md-6 col-sm-6 col">
                 <h5 className="headin5_amrc col_white_amrc pt2">Find us</h5>
                 {/*headin5_amrc*/}
-                <p><i className="fa fa-location-arrow" />Kotebe Educational University </p>
-                <p><i className="fa fa-phone" /> +251-00766164 </p>
-                <p><i className="fa fa fa-envelope" />Educational234@gmail.com </p>
+                <p><i className="fa fa-location-arrow" />Kotebe Educational University</p>
+                <p><i className="fa fa-phone" /> +251-900766164 </p>
+                <p><i className="fa fa fa-envelope" />Amarasfaw1077@gmail.com </p>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-6 col">
                 <h5 className="headin5_amrc col_white_amrc pt2">Follow us</h5>
@@ -42,18 +42,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="container">
-            <div className="footer-logo">
-              <a href="#"><img src="{% static 'images/logo.jpg' %}" alt="" /></a>
-            </div>
             {/*foote_bottom_ul_amrc ends here*/}
             <p className="copyright text-center">All Rights Reserved. © {new Date().getFullYear()} <a href="{% url 'recommend' %}"> Fertilizer Recommendation </a>
             </p>
-            <ul className="social_footer_ul">
-              <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-              <li><a href="#"><i className="fab fa-twitter" /></a></li>
-              <li><a href="#"><i className="fab fa-lnkedin" /></a></li>
-              <li><a href="#"><i className="fab fa-instagram" /></a></li>
-            </ul>
             {/*social_footer_ul ends here*/}
           </div>
         </footer>
