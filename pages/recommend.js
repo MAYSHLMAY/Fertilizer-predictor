@@ -20,16 +20,16 @@ export default function Home() {
           <div className="breadcrumb-main">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <Link href="./">
+                <a>Home</a>
+                </Link>
               </li>
               <li className="breadcrumb-item active">Fertilizer Recommendation</li>
             </ol>
           </div>
-          {'{'}% if not data %{'}'}
           <div>
             <h1>Please fill the details below</h1>
-            <form id="form" action="/output" method="post">
-              {'{'}% csrf_token %{'}'}
+            <form id="form">
               {/* Details */}
               <div className="form-control">
                 <label htmlFor="name" id="label-name">
@@ -49,38 +49,6 @@ export default function Home() {
                 </label>
                 {/* Input Type Text */}
                 <input type="number" name="p3" id="age" placeholder="Enter moisture content of the soil" required />
-              </div>
-              <div className="form-control">
-                <label htmlFor="role" id="label-role">
-                  Soil type: 
-                </label>
-                <select name="p4" id="role">
-                  <option value={0}>Black</option>
-                  <option value={1}>Clayey</option>
-                  <option value={2}>Loamy</option>
-                  <option value={3}>Red</option>
-                  <option value={4}>Sandy</option>
-                </select>
-              </div>
-              <div className="form-control">
-                <label name="p5">
-                  Crop Type: 
-                </label>
-                <select name="p5" id="role">
-                  <option value={0}>Barley</option>
-                  <option value={1}>Cotton</option>
-                  <option value={2}>
-                    Ground Nuts
-                  </option>
-                  <option value={3}>Maize</option>
-                  <option value={4}>Millet</option>
-                  <option value={5}>Oil Seeds</option>
-                  <option value={6}>Paddy</option>
-                  <option value={7}>Pulses</option>
-                  <option value={8}>Sugercane</option>
-                  <option value={9}>Tobacco</option>
-                  <option value={10}>Wheat</option>
-                </select>
               </div>
               <div className="form-control">
                 <label htmlFor="age" id="label-age">

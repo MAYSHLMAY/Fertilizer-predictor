@@ -46,9 +46,7 @@ export default function Footer() {
               <a href="#"><img src="{% static 'images/logo.jpg' %}" alt="" /></a>
             </div>
             {/*foote_bottom_ul_amrc ends here*/}
-            <p className="copyright text-center">All Rights Reserved. © {new Date().getFullYear()} <a href="{% url 'recommend' %}">Fertilizer Recommendation</a>
-              Design By :
-              <a href="#">Team 5</a>
+            <p className="copyright text-center">All Rights Reserved. © {new Date().getFullYear()} <a href="{% url 'recommend' %}"> Fertilizer Recommendation </a>
             </p>
             <ul className="social_footer_ul">
               <li><a href="#"><i className="fab fa-facebook-f" /></a></li>

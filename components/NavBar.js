@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function NavBar() {
     return (
@@ -14,13 +15,15 @@ export default function NavBar() {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <a className="nav-link page1" href="./index.html">Home</a>
+                <Link href="./">
+                <a className="nav-link page1">Home</a>
+                </Link>
                 </li>
                 <li>
-                  <a className="nav-link page2 active" href="./recommend.html">Fertilizer Recommend</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link page4" href="./faq.html">FAQs</a>
+                <Link href="./recommend">
+                <a className="nav-link page2 active">Fertilizer Recommend</a>
+                  </Link>
+                  
                 </li>
               </ul>
             </div>

@@ -1,0 +1,596 @@
+[
+ {
+   "Nitrogen": 37,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 36,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 7,
+   "Potassium": 9,
+   "Phosphorous": 30,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 22,
+   "Potassium": 0,
+   "Phosphorous": 20,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 35,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 10,
+   "Phosphorous": 13,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 9,
+   "Potassium": 0,
+   "Phosphorous": 10,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 41,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 21,
+   "Potassium": 0,
+   "Phosphorous": 18,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 9,
+   "Potassium": 7,
+   "Phosphorous": 30,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 40,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 14,
+   "Potassium": 15,
+   "Phosphorous": 12,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 36,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 24,
+   "Potassium": 0,
+   "Phosphorous": 22,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 14,
+   "Potassium": 0,
+   "Phosphorous": 41,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 13,
+   "Phosphorous": 14,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 38,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 21,
+   "Potassium": 0,
+   "Phosphorous": 19,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 39,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 36,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 0,
+   "Phosphorous": 9,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 14,
+   "Phosphorous": 12,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 11,
+   "Potassium": 0,
+   "Phosphorous": 37,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 36,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 10,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 23,
+   "Potassium": 0,
+   "Phosphorous": 20,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 9,
+   "Potassium": 9,
+   "Phosphorous": 29,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 38,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 39,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 14,
+   "Potassium": 0,
+   "Phosphorous": 13,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 24,
+   "Potassium": 0,
+   "Phosphorous": 23,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 40,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 39,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 7,
+   "Potassium": 9,
+   "Phosphorous": 30,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 23,
+   "Potassium": 0,
+   "Phosphorous": 19,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 41,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 8,
+   "Potassium": 10,
+   "Phosphorous": 31,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 41,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 15,
+   "Potassium": 14,
+   "Phosphorous": 11,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 15,
+   "Potassium": 0,
+   "Phosphorous": 37,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 13,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 7,
+   "Phosphorous": 32,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 22,
+   "Potassium": 0,
+   "Phosphorous": 24,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 35,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 0,
+   "Phosphorous": 35,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 8,
+   "Potassium": 8,
+   "Phosphorous": 28,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 8,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 24,
+   "Potassium": 0,
+   "Phosphorous": 18,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 41,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 5,
+   "Potassium": 9,
+   "Phosphorous": 29,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 23,
+   "Potassium": 0,
+   "Phosphorous": 21,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 14,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 40,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 42,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 11,
+   "Potassium": 12,
+   "Phosphorous": 15,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 23,
+   "Potassium": 0,
+   "Phosphorous": 24,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 38,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 8,
+   "Potassium": 0,
+   "Phosphorous": 15,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 11,
+   "Potassium": 13,
+   "Phosphorous": 15,
+   "FertilizerName": "Seventeen-Seventeen-Seventeen"
+ },
+ {
+   "Nitrogen": 15,
+   "Potassium": 0,
+   "Phosphorous": 37,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 36,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 9,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 24,
+   "Potassium": 0,
+   "Phosphorous": 20,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 5,
+   "Potassium": 18,
+   "Phosphorous": 15,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 37,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 15,
+   "Potassium": 0,
+   "Phosphorous": 40,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 9,
+   "Potassium": 0,
+   "Phosphorous": 13,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 8,
+   "Potassium": 8,
+   "Phosphorous": 33,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 6,
+   "Potassium": 19,
+   "Phosphorous": 16,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 0,
+   "Phosphorous": 14,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 21,
+   "Potassium": 0,
+   "Phosphorous": 23,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 39,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 23,
+   "Potassium": 0,
+   "Phosphorous": 19,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 42,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 0,
+   "Phosphorous": 39,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 9,
+   "Potassium": 10,
+   "Phosphorous": 22,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 22,
+   "Potassium": 0,
+   "Phosphorous": 21,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 0,
+   "Phosphorous": 15,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 7,
+   "Potassium": 16,
+   "Phosphorous": 20,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 14,
+   "Potassium": 0,
+   "Phosphorous": 38,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 10,
+   "Potassium": 8,
+   "Phosphorous": 29,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 41,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 14,
+   "Potassium": 0,
+   "Phosphorous": 35,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 11,
+   "Potassium": 0,
+   "Phosphorous": 9,
+   "FertilizerName": "Twenty-Twenty"
+ },
+ {
+   "Nitrogen": 21,
+   "Potassium": 0,
+   "Phosphorous": 28,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 8,
+   "Potassium": 7,
+   "Phosphorous": 31,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 13,
+   "Potassium": 17,
+   "Phosphorous": 16,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 35,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 18,
+   "Phosphorous": 19,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 11,
+   "Potassium": 0,
+   "Phosphorous": 38,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 8,
+   "Potassium": 9,
+   "Phosphorous": 30,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 6,
+   "Potassium": 19,
+   "Phosphorous": 21,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 41,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 9,
+   "Potassium": 10,
+   "Phosphorous": 30,
+   "FertilizerName": "Fourteen-Thirty Five-Fourteen"
+ },
+ {
+   "Nitrogen": 24,
+   "Potassium": 0,
+   "Phosphorous": 19,
+   "FertilizerName": "Twenty Eight-Twenty Eight"
+ },
+ {
+   "Nitrogen": 4,
+   "Potassium": 17,
+   "Phosphorous": 17,
+   "FertilizerName": "Ten-Twenty Six-Twenty Six"
+ },
+ {
+   "Nitrogen": 39,
+   "Potassium": 0,
+   "Phosphorous": 0,
+   "FertilizerName": "Urea"
+ },
+ {
+   "Nitrogen": 15,
+   "Potassium": 0,
+   "Phosphorous": 41,
+   "FertilizerName": "DAP"
+ },
+ {
+   "Nitrogen": 12,
+   "Potassium": 0,
+   "Phosphorous": 10,
+   "FertilizerName": "Twenty-Twenty"
+ }
+]

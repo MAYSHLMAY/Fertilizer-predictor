@@ -11,6 +11,6 @@ export default function useFetch() {
             setCountry(data.country);
             
         })
-    })
+    }, [])
     return [city, country]
 }

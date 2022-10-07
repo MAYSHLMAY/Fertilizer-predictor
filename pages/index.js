@@ -1,15 +1,20 @@
 import NavBar from "components/NavBar"
 import Footer from "components/footer"
-import fs from "fs";
-import path from "path";
+import Link from 'next/link'
+import data from "Fertilizer.json"
 
 
 export default function Recommend() {
-    console.log(path)
-    console.log(fs)
-    console.log(process.cwd())
-    const fileContents = fs.readFileSync("../Fertilizer.csv", 'utf8')
-    console.log(fileContents)
+    
+
+const dataset = data.map((item) => ({
+    input: [item.Nitrogen, item.Potassium, item.Phosphorous],
+    output: [item.FertilizerName]
+}));
+
+for (let i = 0; i < data.length; i++) console.log(Object.values(dataset[i])[0])
+
+
     return (
         <>
         <NavBar />
@@ -25,10 +30,12 @@ export default function Recommend() {
             <div className="carousel-item active" style={{backgroundImage: 'url("../static/images/slider-01.jpg")'}}>
               <div className="carousel-caption  d-md-block">
                 <div className="parentElement">
-                  <a href="{% url 'recommend' %}" className="btn success mainbutton">
+                <Link href={"./recommend"}>
+                  <a className="btn success mainbutton">
                     <h2 className="mainbuttontext first">Click Here for Fertilizer Recommendation</h2>
                     <h2 className="mainbuttontext second">Fertilizer Recommend</h2>
                   </a>
+                  </Link>
                 </div>
                 <h3>Welcome to our website</h3>
                 <p>This is a Fertilizer Recommendation system for hassle free selection of fertilizers</p>
@@ -38,10 +45,12 @@ export default function Recommend() {
             <div className="carousel-item" style={{backgroundImage: 'url("../static/images/slider-03.jpg")'}}>
               <div className="carousel-caption d-md-block">
                 <div className="parentElement">
-                  <a href="{% url 'recommend' %}" className="btn success mainbutton">
+                    <Link href={"./recommend"}>
+                  <a className="btn success mainbutton">
                     <h2 className="mainbuttontext first">Click Here for Fertilizer Recommendation</h2>
                     <h2 className="mainbuttontext second">Fertilizer Recommend</h2>
                   </a>
+                  </Link>
                 </div>
                 <h3>Soil Test Data</h3>
                 <p>Only soil test data, soil type and crop related data needed to be entered for prediction</p>
