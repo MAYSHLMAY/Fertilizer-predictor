@@ -19,18 +19,8 @@ export default function NavBar() {
                 <li>
                   <a className="nav-link page2 active" href="./recommend.html">Fertilizer Recommend</a>
                 </li>
-                <li>
-                  <a className="nav-link page3" href="./services.html">Why Soil test?</a>
-                </li>
                 <li className="nav-item">
                   <a className="nav-link page4" href="./faq.html">FAQs</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="./about.html">About</a>
-                </li>
-                <li className="nav-item">
-                </li><li className="nav-item">
-                  <a className="nav-link" href="./contact.html">Contact</a>
                 </li>
               </ul>
             </div>

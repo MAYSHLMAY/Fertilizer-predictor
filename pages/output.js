@@ -2,7 +2,12 @@ import Link from "next/link"
 import NavBar from "components/NavBar";
 import Footer from "components/footer";
 
+import useFetch from "hooks/useFetch";
+
 export default function Home() {
+
+const [city, country] = useFetch();
+
     return (
         <div>
         <NavBar />
@@ -30,7 +35,7 @@ export default function Home() {
           {'{'}% if data %{'}'}
           <h1><u>{'{'}{'{'}data{'}'}{'}'}</u> is the recommeded fertilizer.</h1>
           <br />
-          <p><i className="fas fa-map-marker-alt	" /> {'{'}{'{'}ipdata.json.city{'}'}{'}'}, {'{'}{'{'}ipdata.json.region{'}'}{'}'}, {'{'}{'{'}ipdata.json.country{'}'}{'}'} </p>
+          <p><i className="fas fa-map-marker-alt	" /> {city}, {city}, {country}</p>
           <p>({'{'}{'{'}ipdata.json.loc{'}'}{'}'})</p>
           <p>{'{'}{'{'}weather{'}'}{'}'}</p>
           <h6>{'{'}{'{'}desc1{'}'}{'}'}</h6>

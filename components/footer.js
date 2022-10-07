@@ -7,9 +7,8 @@ export default function Footer() {
               <div className="col-lg-4 col-md-6 col-sm-6 col">
                 <h5 className="headin5_amrc col_white_amrc pt2">Find us</h5>
                 {/*headin5_amrc*/}
-                <p><i className="fa fa-location-arrow" /> R.V. College of Engineering, Mysore Rd, Vidyaniketan post,
-                  Bengaluru-560059 </p>
-                <p><i className="fa fa-phone" /> +91-9876543210 </p>
+                <p><i className="fa fa-location-arrow" />Kotebe Educational University </p>
+                <p><i className="fa fa-phone" /> +251-9876543210 </p>
                 <p><i className="fa fa fa-envelope" /> response-team-fr@gmail.com </p>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-6 col">
@@ -18,22 +17,12 @@ export default function Footer() {
                 <ul className="footer_ul2_amrc">
                   <li>
                     <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                    <p><a href="https://www.linkedin.com/in/sahil-sharma-396b49179/">Linkedin : Sahil Sharma</a>
+                    <p><a href="https://www.linkedin.com/in/sahil-sharma-396b49179/">Amar Asfaw</a>
                     </p>
                   </li>
                   <li>
                     <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                    <p><a href="https://www.linkedin.com/in/ameya-mahadev-gonal-a2ba59134/">Linkedin : Ameya
-                        MG</a></p>
-                  </li>
-                  <li>
-                    <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                    <p><a href="https://www.linkedin.com/in/ktnvaish/">Linkedin : Ketan Vaish</a></p>
-                  </li>
-                  <li>
-                    <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                    <p><a href="#">Linkedin : Harshit Handa</a>
-                    </p>
+                    <p><a href="https://www.linkedin.com/in/ameya-mahadev-gonal-a2ba59134/">Dagimawi Sisay</a></p>
                   </li>
                 </ul>
                 {/*footer_ul2_amrc ends here*/}
@@ -57,14 +46,14 @@ export default function Footer() {
               <a href="#"><img src="{% static 'images/logo.jpg' %}" alt="" /></a>
             </div>
             {/*foote_bottom_ul_amrc ends here*/}
-            <p className="copyright text-center">All Rights Reserved. © 2021 <a href="{% url 'recommend' %}">Fertilizer Recommendation</a>
+            <p className="copyright text-center">All Rights Reserved. © {new Date().getFullYear()} <a href="{% url 'recommend' %}">Fertilizer Recommendation</a>
               Design By :
               <a href="#">Team 5</a>
             </p>
             <ul className="social_footer_ul">
               <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
               <li><a href="#"><i className="fab fa-twitter" /></a></li>
-              <li><a href="#"><i className="fab fa-linkedin" /></a></li>
+              <li><a href="#"><i className="fab fa-lnkedin" /></a></li>
               <li><a href="#"><i className="fab fa-instagram" /></a></li>
             </ul>
             {/*social_footer_ul ends here*/}

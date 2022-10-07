@@ -375,4 +375,14 @@
           display: none;
       }
   }
+
+  .breadcrumb {
+    border-bottom-left-radius: 1.2em;
+border-bottom-right-radius: 1.2em;
+padding: 1.2em;
+  }
+
+  #navbarResponsive {
+    margin-left: 25em;
+  }
   
