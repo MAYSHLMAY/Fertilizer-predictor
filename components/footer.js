@@ -16,12 +16,12 @@ export default function Footer() {
                 {/*headin5_amrc ends here*/}
                 <ul className="footer_ul2_amrc">
                   <li>
-                    <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
+                    <a href="#"><i className="fab fa-github fleft padding-right" /> </a>
                     <p><a href="https://www.github.com/amxson/">Amar Asfaw</a>
                     </p>
                   </li>
                   <li>
-                    <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
+                    <a href="#"><i className="fab fa-github fleft padding-right" /> </a>
                     <p><a href="https://www.github.com/dagiyoioo/">Dagimawi Sisay</a></p>
                   </li>
                 </ul>
