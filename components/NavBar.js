@@ -6,9 +6,11 @@ export default function NavBar() {
         <>
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
           <div className="container">
-            <a className="navbar-brand" href="./index.html">
+            <Link href={"./"}>
+            <a className="navbar-brand">
               <img src="../static/images/logo.jpg" className="logo" alt="logo" />
             </a>
+            </Link>
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span className="fas fa-bars" />
             </button>

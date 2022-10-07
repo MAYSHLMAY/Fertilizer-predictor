@@ -2,14 +2,20 @@ import Link from "next/link"
 import NavBar from "components/NavBar";
 import Footer from "components/footer";
 import useFetch from "hooks/useFetch";
+import data from "Fertilizer.json"
 
 export default function Home() {
 
 const [city, country] = useFetch();
 
 let max = city;
-console.log(max)
-console.log(city, country)
+const dataset = data.map((item) => ({
+  input: [item.Nitrogen, item.Potassium, item.Phosphorous],
+  output: [item.FertilizerName]
+}));
+
+let arr = []
+for (let i = 0; i < data.length; i++) arr.push(Object.values(dataset[i])[1][0])
 
     return (
         <div>
@@ -34,7 +40,7 @@ console.log(city, country)
               <li className="breadcrumb-item active">Result</li>
             </ol>
           </div>
-          <h1><u>{'{'}{'{'}data{'}'}{'}'}</u> is the recommeded fertilizer.</h1>
+          <h1><u>{arr[Math.floor((Math.random() * arr.length) + 1)]}</u> is the recommeded fertilizer.</h1>
           <br />
           <p><i className="fas fa-map-marker-alt	" /> {city}, {city}, {country}</p>
           <br /><br />

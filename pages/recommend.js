@@ -29,20 +29,8 @@ export default function Home() {
           </div>
           <div>
             <h1>Please fill the details below</h1>
-            <form id="form">
+            <form id="form" action="./output">
               {/* Details */}
-              <div className="form-control">
-                <label htmlFor="name" id="label-name">
-                  Temperature: 
-                </label>
-                <input type="text" name="p1" id="name" defaultValue="{{temperature}}" readOnly />
-              </div>
-              <div className="form-control">
-                <label htmlFor="email" id="label-email">
-                  Humidity: 
-                </label>
-                <input type="text" name="p2" id="name" defaultValue="{{humidity}}" readOnly />
-              </div>
               <div className="form-control">
                 <label htmlFor="age" id="label-age">
                   Moisture: 
@@ -69,9 +57,11 @@ export default function Home() {
                 </label>
                 <input type="number" name="p8" id="age" placeholder="Enter Phosphorus content" required />
               </div>
+           
               <button className="subbutton" type="submit" value="submit">
                 Submit
               </button>
+              
             </form>
           </div>
         </div>

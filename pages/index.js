@@ -1,19 +1,10 @@
 import NavBar from "components/NavBar"
 import Footer from "components/footer"
 import Link from 'next/link'
-import data from "Fertilizer.json"
 
 
 export default function Recommend() {
     
-
-const dataset = data.map((item) => ({
-    input: [item.Nitrogen, item.Potassium, item.Phosphorous],
-    output: [item.FertilizerName]
-}));
-
-for (let i = 0; i < data.length; i++) console.log(Object.values(dataset[i])[0])
-
 
     return (
         <>
