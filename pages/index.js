@@ -3,8 +3,7 @@ import Link from "next/link"
 
 export default function Home() {
     return (
-        <div>
-            
+        <div>  
           <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
             <div className="container">
               <a className="navbar-brand" href="{% url 'home' %}">
