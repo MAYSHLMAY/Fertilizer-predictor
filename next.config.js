@@ -1,11 +1,8 @@
 module.exports = {
-    reactStrictMode: true,
-    serverRuntimeConfig: {
-        secret: 'THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING'
+    webpack5: true,
+    webpack: (config) => {
+      config.resolve.fallback = { fs: false };
+  
+      return config;
     },
-    publicRuntimeConfig: {
-        apiUrl: process.env.NODE_ENV === 'development'
-            ? 'http://localhost:3000/api' // development api
-            : 'http://localhost:3000/api' // production api
-    }
-}
+  };

@@ -1,7 +1,15 @@
 import NavBar from "components/NavBar"
 import Footer from "components/footer"
+import fs from "fs";
+import path from "path";
+
 
 export default function Recommend() {
+    console.log(path)
+    console.log(fs)
+    console.log(process.cwd())
+    const fileContents = fs.readFileSync("../Fertilizer.csv", 'utf8')
+    console.log(fileContents)
     return (
         <>
         <NavBar />

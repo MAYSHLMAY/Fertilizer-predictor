@@ -1,12 +1,13 @@
 import Link from "next/link"
 import NavBar from "components/NavBar";
 import Footer from "components/footer";
-
 import useFetch from "hooks/useFetch";
+const { readFile } = require("fs");
 
 export default function Home() {
 
 const [city, country] = useFetch();
+
 
     return (
         <div>
