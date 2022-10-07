@@ -8,8 +8,8 @@ export default function Footer() {
                 <h5 className="headin5_amrc col_white_amrc pt2">Find us</h5>
                 {/*headin5_amrc*/}
                 <p><i className="fa fa-location-arrow" />Kotebe Educational University </p>
-                <p><i className="fa fa-phone" /> +251-9876543210 </p>
-                <p><i className="fa fa fa-envelope" /> response-team-fr@gmail.com </p>
+                <p><i className="fa fa-phone" /> +251-00766164 </p>
+                <p><i className="fa fa fa-envelope" />Educational234@gmail.com </p>
               </div>
               <div className="col-lg-4 col-md-6 col-sm-6 col">
                 <h5 className="headin5_amrc col_white_amrc pt2">Follow us</h5>
@@ -17,12 +17,12 @@ export default function Footer() {
                 <ul className="footer_ul2_amrc">
                   <li>
                     <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                    <p><a href="https://www.linkedin.com/in/sahil-sharma-396b49179/">Amar Asfaw</a>
+                    <p><a href="https://www.github.com/amxson/">Amar Asfaw</a>
                     </p>
                   </li>
                   <li>
                     <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                    <p><a href="https://www.linkedin.com/in/ameya-mahadev-gonal-a2ba59134/">Dagimawi Sisay</a></p>
+                    <p><a href="https://www.github.com/dagiyoioo/">Dagimawi Sisay</a></p>
                   </li>
                 </ul>
                 {/*footer_ul2_amrc ends here*/}
