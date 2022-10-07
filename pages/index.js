@@ -1,206 +1,114 @@
 import Link from "next/link"
-
+import NavBar from "components/NavBar";
+import Footer from "components/footer";
 
 export default function Home() {
     return (
-        <div>  
-          <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
-            <div className="container">
-              <a className="navbar-brand" href="{% url 'home' %}">
-                <img src="{% static 'images/logo.jpg' %}" className="logo" alt="logo" />
-              </a>
-              <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="fas fa-bars" />
-              </button>
-              <div className="collapse navbar-collapse myDiv" id="navbarResponsive">
-                <ul className="navbar-nav ml-auto">
-                  <li className="nav-item">
-                    <a className="nav-link active page1" href="{% url 'home' %}">Home</a>
-                  </li>
-                  <li>
-                    <a className="nav-link page2" href="{% url 'recommend' %}">Fertilizer Recommend</a>
-                  </li>
-                  <li>
-                    <a className="nav-link page3" href="{% url 'services' %}">Why Soil test?</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link page4" href="{% url 'faq' %}">FAQ's</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="{% url 'about' %}">About</a>
-                  </li>
-                  <li className="nav-item">
-                  </li><li className="nav-item">
-                    <a className="nav-link" href="{% url 'contact' %}">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <header className="slider-main">
-            <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-ride="carousel">
-              <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-                <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-                <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-              </ol>
-              <div className="carousel-inner" role="listbox">
-                {/* Slide One - Set the background image for this slide in the line below */}
-                <div className="carousel-item active" style={{backgroundImage: 'url("../static/images/slider-01.jpg")'}}>
-                  <div className="carousel-caption  d-md-block">
-                    <div className="parentElement">
-                      <a href="{% url 'recommend' %}" className="btn success mainbutton">
-                        <h2 className="mainbuttontext first">Click Here for Fertilizer Recommendation</h2>
-                        <h2 className="mainbuttontext second">Fertilizer Recommend</h2>
-                      </a>
-                    </div>
-                    <h3>Welcome to our website</h3>
-                    <p>This is a Fertilizer Recommendation system for hassle free selection of fertilizers</p>
-                  </div>
-                </div>
-                {/* Slide Three - Set the background image for this slide in the line below */}
-                <div className="carousel-item" style={{backgroundImage: 'url("../static/images/slider-03.jpg")'}}>
-                  <div className="carousel-caption d-md-block">
-                    <div className="parentElement">
-                      <a href="{% url 'recommend' %}" className="btn success mainbutton">
-                        <h2 className="mainbuttontext first">Click Here for Fertilizer Recommendation</h2>
-                        <h2 className="mainbuttontext second">Fertilizer Recommend</h2>
-                      </a>
-                    </div>
-                    <h3>Soil Test Data</h3>
-                    <p>Only soil test data, soil type and crop related data needed to be entered for prediction</p>
-                  </div>
-                </div>
-                {/* Slide Two - Set the background image for this slide in the line below */}
-                <div className="carousel-item" style={{backgroundImage: 'url("../static/images/slider-02.jpg")'}}>
-                  <div className="carousel-caption d-md-block">
-                    <div className="parentElement">
-                      <a href="{% url 'recommend' %}" className="btn success mainbutton">
-                        <h2 className="mainbuttontext first">Click Here for Fertilizer Recommendation</h2>
-                        <h2 className="mainbuttontext second">Fertilizer Recommend</h2>
-                      </a>
-                    </div>
-                    <h3>Best Fertilizer Selection</h3>
-                    <p>Choose the best fertilizer for your crop and soil out of all the choices available.</p>
-                  </div>
-                </div>
-              </div>
-              <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true" />
-                <span className="sr-only">Previous</span>
-              </a>
-              <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true" />
-                <span className="sr-only">Next</span>
-              </a>
-            </div>
-          </header>
-          {/* /.container */}
-          {/*footer starts from here*/}
-          <footer className="footer">
-            <div className="container bottom_border">
-              <div className="row">
-                <div className="col-lg-4 col-md-6 col-sm-6 col">
-                  <h5 className="headin5_amrc col_white_amrc pt2">Find us</h5>
-                  {/*headin5_amrc*/}
-                  <p><i className="fa fa-location-arrow" /> R.V. College of Engineering, Mysore Rd, Vidyaniketan post,
-                    Bengaluru-560059 </p>
-                  <p><i className="fa fa-phone" /> +91-9876543210 </p>
-                  <p><i className="fa fa fa-envelope" /> response-team-fr@gmail.com </p>
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6 col">
-                  <h5 className="headin5_amrc col_white_amrc pt2">Follow us</h5>
-                  {/*headin5_amrc ends here*/}
-                  <ul className="footer_ul2_amrc">
-                    <li>
-                      <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                      <p><a href="https://www.linkedin.com/in/sahil-sharma-396b49179/">Linkedin : Sahil Sharma</a>
-                      </p>
-                    </li>
-                    <li>
-                      <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                      <p><a href="https://www.linkedin.com/in/ameya-mahadev-gonal-a2ba59134/">Linkedin : Ameya
-                          MG</a></p>
-                    </li>
-                    <li>
-                      <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                      <p><a href="https://www.linkedin.com/in/ktnvaish/">Linkedin : Ketan Vaish</a></p>
-                    </li>
-                    <li>
-                      <a href="#"><i className="fab fa-linkedin fleft padding-right" /> </a>
-                      <p><a href="#">Linkedin : Harshit Handa</a>
-                      </p>
-                    </li>
-                  </ul>
-                  {/*footer_ul2_amrc ends here*/}
-                </div>
-                <div className="col-lg-4 col-md-6 col-sm-6">
-                  <h5 className="headin5_amrc col_white_amrc pt2">Quick links</h5>
-                  {/*headin5_amrc*/}
-                  <ul className="footer_ul_amrc">
-                    <li><a href="https://farmer.gov.in/stl.aspx">Soil Testing labs (State-wise)</a></li>
-                    <li><a href="https://www.napanta.com/fertilizer-dealer">Offline fertilizer dealers (State-wise)</a></li>
-                    <li><a href="https://www.napanta.com/market-price/telangana/warangal/warangal">Daily Market Price (of various crops)</a></li>
-                    <li><a href="https://www.ugaoo.com/plant-care/plant-growth/fertilizers.html">Buy fertilizers online</a></li>
-                    <li><a href="https://agricoop.gov.in/programmes-schemes-listing">Programmes and Schemes</a></li>
-                    <li><a href="https://pib.gov.in/PressReleasePage.aspx?PRID=1725612">MSP (crop-wise)</a></li>
-                  </ul>
-                </div>
-                {/* <div class="col-lg-3 col-md-6 col-sm-6 ">
-                      <h5 class="headin5_amrc col_white_amrc pt2">Recent posts</h5>
-                      headin5_amrc
-                           <ul class="footer_ul_amrc">
-                          <li class="media">
-                              <div class="media-left">
-                                  <img class="img-fluid" src="images/post-img-01.jpg" alt="" />
-                              </div>
-                              <div class="media-body">
-                                  <p>How to find best dog food?</p>
-                                  <span>22 Sep 2018</span>
-                              </div>
-                          </li>
-                          <li class="media">
-                              <div class="media-left">
-                                  <img class="img-fluid" src="images/post-img-02.jpg" alt="" />
-                              </div>
-                              <div class="media-body">
-                                  <p>How to find best dog food?</p>
-                                  <span>34 Sep 2018</span>
-                              </div>
-                          </li>
-                          <li class="media">
-                              <div class="media-left">
-                                  <img class="img-fluid" src="images/post-img-03.jpg" alt="" />
-                              </div>
-                              <div class="media-body">
-                                  <p>How to find best dog food?</p>
-                                  <span>30 Sep 2018</span>
-                              </div>
-                          </li>
-                      </ul> */}
-                {/*footer_ul_amrc ends here*/}
-                {/* </div> */}
-              </div>
-            </div>
-            <div className="container">
-              <div className="footer-logo">
-                <a href="#"><img src="{% static 'images/logo.jpg' %}" alt="" /></a>
-              </div>
-              {/*foote_bottom_ul_amrc ends here*/}
-              <p className="copyright text-center">All Rights Reserved. © 2021 <a href="{% url 'recommend' %}">Fertilizer Recommendation</a>
-                Design By :
-                <a href="#">Team 5</a>
-              </p>
-              <ul className="social_footer_ul">
-                <li><a href="#"><i className="fab fa-facebook-f" /></a></li>
-                <li><a href="#"><i className="fab fa-twitter" /></a></li>
-                <li><a href="#"><i className="fab fa-linkedin" /></a></li>
-                <li><a href="#"><i className="fab fa-instagram" /></a></li>
-              </ul>
-              {/*social_footer_ul ends here*/}
-            </div>
-          </footer>
+        <div>
+        <NavBar />
+        <div className="full-title" style={{backgroundImage: 'url("static/images/all-title-bg.jpg")'}}>
+          <div className="container">
+            {/* Page Heading/Breadcrumbs */}
+            <h1 className="mt-4 mb-3">Fertilizer Recommendation
+              <small>Choose the best.</small>
+            </h1>
+          </div>
         </div>
+        {/* Page Content */}
+        <div className="container">
+          <div className="breadcrumb-main">
+            <ol className="breadcrumb">
+              <li className="breadcrumb-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li className="breadcrumb-item active">Fertilizer Recommendation</li>
+            </ol>
+          </div>
+          {'{'}% if not data %{'}'}
+          <div>
+            <h1>Please fill the details below</h1>
+            <form id="form" action="/output" method="post">
+              {'{'}% csrf_token %{'}'}
+              {/* Details */}
+              <div className="form-control">
+                <label htmlFor="name" id="label-name">
+                  Temperature: 
+                </label>
+                <input type="text" name="p1" id="name" defaultValue="{{temperature}}" readOnly />
+              </div>
+              <div className="form-control">
+                <label htmlFor="email" id="label-email">
+                  Humidity: 
+                </label>
+                <input type="text" name="p2" id="name" defaultValue="{{humidity}}" readOnly />
+              </div>
+              <div className="form-control">
+                <label htmlFor="age" id="label-age">
+                  Moisture: 
+                </label>
+                {/* Input Type Text */}
+                <input type="number" name="p3" id="age" placeholder="Enter moisture content of the soil" required />
+              </div>
+              <div className="form-control">
+                <label htmlFor="role" id="label-role">
+                  Soil type: 
+                </label>
+                <select name="p4" id="role">
+                  <option value={0}>Black</option>
+                  <option value={1}>Clayey</option>
+                  <option value={2}>Loamy</option>
+                  <option value={3}>Red</option>
+                  <option value={4}>Sandy</option>
+                </select>
+              </div>
+              <div className="form-control">
+                <label name="p5">
+                  Crop Type: 
+                </label>
+                <select name="p5" id="role">
+                  <option value={0}>Barley</option>
+                  <option value={1}>Cotton</option>
+                  <option value={2}>
+                    Ground Nuts
+                  </option>
+                  <option value={3}>Maize</option>
+                  <option value={4}>Millet</option>
+                  <option value={5}>Oil Seeds</option>
+                  <option value={6}>Paddy</option>
+                  <option value={7}>Pulses</option>
+                  <option value={8}>Sugercane</option>
+                  <option value={9}>Tobacco</option>
+                  <option value={10}>Wheat</option>
+                </select>
+              </div>
+              <div className="form-control">
+                <label htmlFor="age" id="label-age">
+                  Nitrogen Content: 
+                </label>
+                {/* Input Type Text */}
+                <input type="number" name="p6" id="age" placeholder="Enter Nitrogen content" required />
+              </div>
+              <div className="form-control">
+                <label htmlFor="age" id="label-age">
+                  Potassium Content: 
+                </label>
+                <input type="number" id="age" name="p7" placeholder="Enter Potassium content" required />
+              </div>
+              <div className="form-control">
+                <label htmlFor="age" id="label-age">
+                  Phosphorus Content: 
+                </label>
+                <input type="number" name="p8" id="age" placeholder="Enter Phosphorus content" required />
+              </div>
+              <button className="subbutton" type="submit" value="submit">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        {/* /.container */}
+       <Footer />
+      </div>
       );
 }
 
