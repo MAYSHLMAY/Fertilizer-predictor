@@ -23,7 +23,7 @@ export default function NavBar() {
                   <a className="nav-link page3" href="./services.html">Why Soil test?</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link page4" href="./faq.html">FAQ's</a>
+                  <a className="nav-link page4" href="./faq.html">FAQs</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="./about.html">About</a>
