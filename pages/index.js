@@ -5,6 +5,7 @@ import Footer from "components/footer";
 export default function Home() {
     return (
         <div>
+            
         <NavBar />
         <div className="full-title" style={{backgroundImage: 'url("static/images/all-title-bg.jpg")'}}>
           <div className="container">
