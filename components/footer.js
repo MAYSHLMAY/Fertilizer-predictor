@@ -21,7 +21,6 @@ export default function Footer() {
                     </p>
                   </li>
                   <li>
-                    <a href="#"><i className="fab fa-github fleft padding-right" /> </a>
                     <p><a href="#">Yisakor Eyob</a></p>
                   </li>
                 </ul>
