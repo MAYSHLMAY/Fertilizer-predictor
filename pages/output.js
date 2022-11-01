@@ -3,19 +3,42 @@ import NavBar from "components/NavBar";
 import Footer from "components/footer";
 import useFetch from "hooks/useFetch";
 import data from "Fertilizer.json"
+import {useRouter} from 'next/router'
+import { useEffect, useState } from "react";
 
 export default function Home() {
 
 const [city, country] = useFetch();
+const Router = useRouter()
+
+const Nitrogen = Router.query.p6
+const Potassium = Router.query.p7
+const Phosphorous = Router.query.p8
 
 let max = city;
-const dataset = data.map((item) => ({
-  input: [item.Nitrogen, item.Potassium, item.Phosphorous],
-  output: [item.FertilizerName]
-}));
+// 
+const [value, setValue] = useState("");
+useEffect(() => {
+  if ((Nitrogen >= 35 && Nitrogen <= 42) && (String(Potassium).length == 1) && (String(Phosphorous).length == 1))  {
+    setValue("Urea")
+  } 
+  else if((Nitrogen >= 10 && Nitrogen <= 20) && (String(Potassium).length == 1) && (Phosphorous >= 35 && Phosphorous <= 42)) {
+     setValue("DAP")
+  }
+  else if((String(Potassium)[0] == "1" && String(Potassium).length == 2) && (String(Nitrogen)[0] == "1" && (String(Nitrogen).length == 2)) && (String(Potassium)[0] == "1" && (String(Potassium).length == 2))) {
+    setValue("Seventeen-Seventeen-Seventeen")
+ }
+ else if ((Potassium >= 22 && Potassium <= 33) && (Nitrogen > 6 && Nitrogen < 12) && (Phosphorous > 6 && Phosphorous < 12)) {
+  setValue("Fourteen-Thirty Five-Fourteen")
+ }
+ else if ((Nitrogen >= 19 && Nitrogen <= 29) && (Phosphorous >= 19 && Nitrogen <= 29)) {
+  setValue("Twenty Eight-Twenty Eight")
+ }
+ else {
+  setValue("Twenty-Twenty")
+ }
+}, [])
 
-let arr = []
-for (let i = 0; i < data.length; i++) arr.push(Object.values(dataset[i])[1][0])
 
     return (
         <div>
@@ -40,7 +63,7 @@ for (let i = 0; i < data.length; i++) arr.push(Object.values(dataset[i])[1][0])
               <li className="breadcrumb-item active">Result</li>
             </ol>
           </div>
-          <h1><u>{arr[Math.floor((Math.random() * arr.length) + 1)]}</u> is the recommeded fertilizer.</h1>
+          <h1><u>{value}</u> is the recommeded fertilizer.</h1>
           <br />
           <p><i className="fas fa-map-marker-alt	" /> {city}, {city}, {country}</p>
           <br /><br />
