@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
           <div className="container">
             {/*foote_bottom_ul_amrc ends here*/}
-            <p className="copyright text-center">All Rights Reserved. © {new Date().getFullYear()} <a href="{% url 'recommend' %}"> Fertilizer Recommendation </a>
+            <p className="copyright text-center">All Rights Reserved. © {new Date().getFullYear()}
             </p>
             {/*social_footer_ul ends here*/}
           </div>
