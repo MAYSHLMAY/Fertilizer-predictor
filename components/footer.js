@@ -22,7 +22,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="#"><i className="fab fa-github fleft padding-right" /> </a>
-                    <p><a href="https://www.github.com/dagiyoioo/">Dagimawi Sisay</a></p>
+                    <p><a href="#">Yisakor Eyob</a></p>
                   </li>
                 </ul>
                 {/*footer_ul2_amrc ends here*/}
